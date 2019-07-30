@@ -1,9 +1,9 @@
- var upCamLights = machine.getActuatorByName("UpCamLights");
- var downCamLights = machine.getActuatorByName("DownCamLights");
- if (upCamLights) {
+var upCamLights = machine.getActuatorByName("UpCamLights");
+if (upCamLights) {
 	upCamLights.actuate(true);
- }
- if (downCamLights) {
+}
+var downCamLights = machine.getActuatorByName("DownCamLights");
+if (downCamLights) {
 	downCamLights.actuate(true); 
- }
+}
 
